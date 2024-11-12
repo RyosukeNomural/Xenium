@@ -26,4 +26,7 @@ git clone https://github.com/RyosukeNomural/Xenium.git
 ```
 
 ## コマンドの説明
-- a
+- lib/preprocessing: csvファイルから本解析用にデータを加工。
+- lib/mesh: 対象区間を10 μm ✕ 10 μm のメッシュに分割。解析対象遺伝子がどのメッシュに位置するかをマーキングし、各メッシュからどの解析対象遺伝子のメッシュまでが最短かを計算。
+- lib/calculation: 遺伝子間の距離を計算。
+- 
