@@ -5,6 +5,10 @@ to plot peripheral genes, internally expressed genes, and extensively expressed 
 
 **※Editing in progress.**
 
+
+<img width="613" alt="fig1" src="https://github.com/user-attachments/assets/b1a6fc49-d272-400e-b56b-12674fa143d7">
+
+
 ## install
 
 ```
