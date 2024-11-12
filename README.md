@@ -2,6 +2,7 @@
 In this tool, Xenium data is used. Sample data is below (https://www.10xgenomics.com/datasets/xenium-prime-ffpe-human-breast-cancer).
 The shortest vector from one gene to another gene is extracted and projected onto polar coordinates. Then, PCoA is used 
 to plot peripheral genes, internally expressed genes, and extensively expressed genes.
+
 **※Editing in progress.**
 
 ## install
@@ -36,6 +37,7 @@ cut --complement -f 3,5,7 -d ',' transcripts.csv > transcripts_filter.csv
 ## 概要
 このツールではXeniumデータを使用する。サンプルデータは以下(https://www.10xgenomics.com/datasets/xenium-prime-ffpe-human-breast-cancer)。
 ある遺伝子からみた他の遺伝子までの最短となるベクトルを抽出し、極座標上に投影する。その後PCoAによって、周辺遺伝子(peripheral)、内部発現遺伝子(internal)、広範囲発現遺伝子(ubiquitous)を図示する。
+
 **※未完成につき編集中**
 
 ## インストール
