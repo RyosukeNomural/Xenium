@@ -16,7 +16,6 @@ Created with the following command
 
 ```
 cut --complement -f 3,5,7 -d ',' transcripts.csv > transcripts_filter.csv
-
 ```
 
   
@@ -27,6 +26,7 @@ cut --complement -f 3,5,7 -d ',' transcripts.csv > transcripts_filter.csv
 - lib/calculation: Calculates the distance between genes.
 - lib/similarity: Calculate similarity between polar coordinates.
 - lib/pcoa: Project the table computed from the similarity onto a 2D space with dimensionality reduction.
+- lib/result: where the results are stored. A part of polar plots of sample data and PCoA results (gene names are not shown) are stored.
 
 <br>
 
@@ -48,7 +48,6 @@ git clone https://github.com/RyosukeNomural/Xenium.git
 
 ```
 cut --complement -f 3,5,7 -d ',' transcripts.csv > transcripts_filter.csv
-
 ```
 
 ## コマンドの説明
@@ -57,3 +56,4 @@ cut --complement -f 3,5,7 -d ',' transcripts.csv > transcripts_filter.csv
 - lib/calculation: 遺伝子間の距離を計算。
 - lib/similarity: 極座標同士の類似度を計算。
 - lib/pcoa: 類似度から計算したテーブルを次元削減し、2次元空間上に投影。
+- lib/result: 結果の保存先。サンプルデータの極座標プロットの一部、およびPCoAの結果(遺伝子名は伏せてある)を保存してある。
