@@ -6,7 +6,7 @@ to plot peripheral genes, internally expressed genes, and extensively expressed 
 **※Editing in progress.**
 
 
-<img width="613" alt="fig1" src="https://github.com/user-attachments/assets/b1a6fc49-d272-400e-b56b-12674fa143d7">
+<img width="899" alt="fig1_2" src="https://github.com/user-attachments/assets/23720266-cf11-4542-a749-38b5d319a61d">
 
 
 ## install
