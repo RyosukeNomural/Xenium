@@ -2,6 +2,7 @@
 In this tool, Xenium data is used. Sample data is below (https://www.10xgenomics.com/datasets/xenium-prime-ffpe-human-breast-cancer).
 The shortest vector from one gene to another gene is extracted and projected onto polar coordinates. Then, PCoA is used 
 to plot peripheral genes, internally expressed genes, and extensively expressed genes.
+**※Editing in progress.**
 
 ## install
 
@@ -10,6 +11,7 @@ git clone https://github.com/RyosukeNomural/Xenium.git
 ```
 
 ## Sample data
+It is recommended to save the file in the following directory. Due to its too large size, please install it by yourself.
 - lib/dataset/breast_sample/transcripts.csv: csv file before processing. Coordinates and expression information are stored.
 - lib/dataset/breast_sample/transcripts_filter.csv: The csv file after processing. Use this file. Extract only necessary information.
 Created with the following command.
@@ -34,6 +36,7 @@ cut --complement -f 3,5,7 -d ',' transcripts.csv > transcripts_filter.csv
 ## 概要
 このツールではXeniumデータを使用する。サンプルデータは以下(https://www.10xgenomics.com/datasets/xenium-prime-ffpe-human-breast-cancer)。
 ある遺伝子からみた他の遺伝子までの最短となるベクトルを抽出し、極座標上に投影する。その後PCoAによって、周辺遺伝子(peripheral)、内部発現遺伝子(internal)、広範囲発現遺伝子(ubiquitous)を図示する。
+**※未完成につき編集中**
 
 ## インストール
 
@@ -42,6 +45,7 @@ git clone https://github.com/RyosukeNomural/Xenium.git
 ```
 
 ## サンプルデータ
+以下のディレクトリに保存することを推奨。容量が大きすぎるため、各自でインストールしてください。
 - lib/dataset/breast_sample/transcripts.csv: 加工前のcsvファイル。
 - lib/dataset/breast_sample/transcripts_filter.csv: 加工後のcsvファイル。こちらを使用。必要な情報のみを抽出。
 以下のコマンドで作成。
