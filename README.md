@@ -9,8 +9,7 @@ to plot peripheral genes, internally expressed genes, and extensively expressed 
 git clone https://github.com/RyosukeNomural/Xenium.git
 ```
 
-
-
+## Command Description
 
 
 <br>
@@ -25,3 +24,6 @@ Xeniumデータを使用。サンプルデータは以下(https://www.10xgenomic
 ```
 git clone https://github.com/RyosukeNomural/Xenium.git
 ```
+
+## コマンドの説明
+- a
