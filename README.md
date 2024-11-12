@@ -12,7 +12,7 @@ git clone https://github.com/RyosukeNomural/Xenium.git
 ## Sample data
 - lib/dataset/breast_sample/transcripts.csv: csv file before processing. Coordinates and expression information are stored.
 - lib/dataset/breast_sample/transcripts_filter.csv: The csv file after processing. Use this file. Extract only necessary information.
-Created with the following command
+Created with the following command.
 
 ```
 cut --complement -f 3,5,7 -d ',' transcripts.csv > transcripts_filter.csv
@@ -44,7 +44,7 @@ git clone https://github.com/RyosukeNomural/Xenium.git
 ## サンプルデータ
 - lib/dataset/breast_sample/transcripts.csv: 加工前のcsvファイル。
 - lib/dataset/breast_sample/transcripts_filter.csv: 加工後のcsvファイル。こちらを使用。必要な情報のみを抽出。
-以下のコマンドで作成
+以下のコマンドで作成。
 
 ```
 cut --complement -f 3,5,7 -d ',' transcripts.csv > transcripts_filter.csv
